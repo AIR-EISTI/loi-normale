@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from LoiNormale import LoiNormale
+from .LoiNormale import LoiNormale
 """
 loinormale
 ------------------------------

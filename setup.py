@@ -25,7 +25,7 @@ long_description = '\n\n'.join([read_file(*pathes) for pathes in desc_files])
 install_requires = ['setuptools', 'pyerf']
 
 
-setup(name='air-eisti.loinormale',
+setup(name='aireisti.loinormale',
       version=version,
       description="Provide a class to manipulate with ease random variables that follow a normal distribution",
       long_description=long_description,
@@ -43,7 +43,7 @@ setup(name='air-eisti.loinormale',
       license="BSD",
       packages=find_packages("src"),
       package_dir={"": "src"},
-      namespace_packages=["air-eisti"],
+      namespace_packages=["aireisti"],
       include_package_data=True,
       zip_safe=False,
       install_requires=install_requires,
